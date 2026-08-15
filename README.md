@@ -30,7 +30,6 @@
 * **What I Built**: Built for **Google Cloud Hackathon 2026**, an interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during complex problem solving.
 * 🔗 [Repository](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
 
-
 ---
 
 ### 📝 [3. CrystalNotes — AI Transcript Intelligence](https://github.com/angelazu-builder/CrystalNotes)
@@ -46,14 +45,6 @@
 * **Problem**: Communicating spatial variations in population density and social enterprise distribution across UK census postcodes (`OX1`–`OX49`).
 * **What I Built**: Standalone interactive spatial mapping portal featuring choropleth layers, income quintile circle markers, and ward boundary tooltips.
 * 🔗 [Repository](https://github.com/angelazu-builder/oxfordshire-population-map) | 🌐 [Live Map Portal](https://angelazu-builder.github.io/oxfordshire-population-map/)
-
----
-
-### 📅 [5. Poster-to-Calendar Vision AI Utility](https://github.com/angelazu-builder/poster-to-calendar-ai)
-`Python` · `Vision AI / OCR` · `Structured Extraction` · `iCal`
-* **Problem**: Manually typing event dates, locations, and details from physical posters into digital calendars is friction-heavy.
-* **What I Built**: An automated utility extracting structured event fields from poster images and outputting calendar-ready `.ics` entries.
-* 🔗 [Repository](https://github.com/angelazu-builder/poster-to-calendar-ai)
 
 ---
 
