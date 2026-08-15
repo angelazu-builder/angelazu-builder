@@ -5,16 +5,16 @@
 [![OpenAI & Gemini](https://img.shields.io/badge/LLMs-OpenAI_%26_Gemini-orange.svg)](#)
 [![Geospatial](https://img.shields.io/badge/Domain-Geospatial_%26_ETL-purple.svg)](#)
 
-> **Quantitative Research | AI & Social Impact Systems | Data Engineering & Geospatial Intelligence**
+> **Quantitative Research | AI & Social Impact Systems | Data Engineering & Geospatial Analytics**
 > 
-> Laidlaw Scholar at Oxford studying quantitative social economy datasets, agentic LLM architectures, empirical benchmarking, and spatial settlement analytics.
+> Laidlaw Scholar studying quantitative social economy datasets, agentic LLM architectures, empirical benchmarking, and spatial settlement analytics.
 
 ---
 
-## 🚀 Featured Projects
+## 🌟 Selected Research & Engineering Systems
 
 ### 📊 [1. OSEP Quantitative Research & AI Social Impact Intelligence](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
-`[Project]` · `Python` · `OpenAI Responses API` · `Missing Data Econometrics` · `Folium / Leaflet`
+`Python` · `OpenAI Responses API` · `Missing Data Econometrics` · `Multi-API Data Pipeline` · `Folium / Leaflet`
 * **Problem**: Regulatory invisibility and missing data across micro-enterprises make evaluating social economy density and policy shocks challenging.
 * **What I Built**: 
   - Standardized **3,096 master entities** across **7 REST/Bulk APIs** (Companies House, Charity Commission, FCA, 360Giving, Contracts Finder, IMD) using postcode-blocked Jaccard n-gram matching ($\ge 85\%$).
@@ -25,23 +25,23 @@
 ---
 
 ### 🤖 [2. Gemini Live Multimodal AI Tutor](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
-`[Project]` · `JavaScript` · `Gemini Live API` · `Multimodal Audio/Vision` · `Hackathon`
-* **Problem**: Static e-learning platforms lack real-time conversational adaptation and visual feedback.
-* **What I Built**: An interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during problem solving.
+`JavaScript` · `Gemini Live API` · `Multimodal Audio & Vision` · `Real-Time AI Systems`
+* **Problem**: Traditional e-learning interfaces lack conversational adaptation and real-time visual problem-solving feedback.
+* **What I Built**: An interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during complex problem solving.
 * 🔗 [Repository](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
 
 ---
 
 ### 📝 [3. CrystalNotes — AI Transcript Intelligence](https://github.com/angelazu-builder/CrystalNotes)
-`[Project]` · `TypeScript` · `LLMs` · `NLP` · `Productivity Tool`
-* **Problem**: Unstructured audio transcripts are time-consuming to review and lack logical hierarchy.
+`TypeScript` · `LLM Systems` · `NLP` · `Productivity Engineering`
+* **Problem**: Unstructured audio transcripts are time-consuming to review and lack clear hierarchical structure.
 * **What I Built**: An AI-powered transcript processor that extracts core insights and formats them into deeply-layered, structured bullet notes.
 * 🔗 [Repository](https://github.com/angelazu-builder/CrystalNotes)
 
 ---
 
 ### 🗺️ [4. Oxfordshire Population Density & Settlement Map Portal](https://github.com/angelazu-builder/oxfordshire-population-map)
-`[Project]` · `Python` · `Folium / Leaflet.js` · `Geospatial Data Science`
+`Python` · `Folium / Leaflet.js` · `Geospatial Data Science` · `Spatial Modeling`
 * **Problem**: Communicating spatial variations in population density and social enterprise distribution across UK census postcodes (`OX1`–`OX49`).
 * **What I Built**: Standalone interactive spatial mapping portal featuring choropleth layers, income quintile circle markers, and ward boundary tooltips.
 * 🔗 [Repository](https://github.com/angelazu-builder/oxfordshire-population-map) | 🌐 [Live Map Portal](https://angelazu-builder.github.io/oxfordshire-population-map/)
@@ -49,30 +49,23 @@
 ---
 
 ### 📅 [5. Poster-to-Calendar Vision AI Utility](https://github.com/angelazu-builder/poster-to-calendar-ai)
-`[Project]` · `Python` · `Vision AI / OCR` · `iCal` · `Hackathon`
+`Python` · `Vision AI / OCR` · `Structured Extraction` · `iCal`
 * **Problem**: Manually typing event dates, locations, and details from physical posters into digital calendars is friction-heavy.
 * **What I Built**: An automated utility extracting structured event fields from poster images and outputting calendar-ready `.ics` entries.
 * 🔗 [Repository](https://github.com/angelazu-builder/poster-to-calendar-ai)
 
 ---
 
-## 🧪 Drafts & Research Experiments
-
-- 🔬 **[eth-oxford-hackathon-draft](https://github.com/angelazu-builder/eth-oxford-hackathon-draft)** `[Draft]` — ETH Oxford Hackathon experimental prototype exploring decentralized data verification protocols.
-- 🧩 **[Chunking-OxEdgeHack](https://github.com/angelazu-builder/Chunking-OxEdgeHack)** `[Draft]` — OxEdge Hackathon experimental data chunking and vector search pipeline.
-
----
-
-## 🛠️ Technical Capabilities & Research Stack
+## 🛠️ Technical Capabilities & Research Focus
 
 - **Quantitative Research & Econometrics**: Missing Data Theory (MCAR/MAR/MNAR), Structural Selection, Elasticity Modeling, Time Series Policy Shocks.
 - **AI & Agentic Systems**: OpenAI Responses API (`web_search` tool), Gemini Live API, Structured JSON Outputs, LLM Hallucination Benchmarking.
 - **Data Engineering & Geospatial**: Multi-Source REST/Bulk ETL Pipelines, Postcode Blocking Fuzzy Matchers, Folium/Leaflet.js Spatial Analytics.
-- **Languages**: Python, JavaScript, TypeScript, HTML/CSS, SQL.
+- **Languages & Frameworks**: Python, JavaScript, TypeScript, HTML/CSS, SQL.
 
 ---
 
-## 📫 Connect & Research Links
+## 📫 Quick Links
 
 - **GitHub Pages Map Portal**: [oxfordshire-population-map](https://angelazu-builder.github.io/oxfordshire-population-map/)
 - **OSEP Portfolio Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
