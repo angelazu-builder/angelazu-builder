@@ -25,10 +25,11 @@
 ---
 
 ### 🤖 [2. Gemini Live Multimodal AI Tutor](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
-`JavaScript` · `Gemini Live API` · `Multimodal Audio & Vision` · `Real-Time AI Systems`
+`JavaScript` · `Gemini Live API` · `Multimodal Audio & Vision` · `Google Cloud Hackathon 2026`
 * **Problem**: Traditional e-learning interfaces lack conversational adaptation and real-time visual problem-solving feedback.
-* **What I Built**: An interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during complex problem solving.
+* **What I Built**: Built for **Google Cloud Hackathon 2026**, an interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during complex problem solving.
 * 🔗 [Repository](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
+
 
 ---
 
