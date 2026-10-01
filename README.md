@@ -35,15 +35,15 @@
 
 ---
 
-### 📈 [3. Event-Driven US Equities Mispricing & Trading Engine](https://github.com/angelazu-builder/event-driven-trading)
-`Python` · `Interactive Brokers (IBKR)` · `SEC EDGAR API` · `Streamlit` · `Probabilistic Valuation` · `Event Econometrics`
+### 📈 [3. Event-Driven US Equities Mispricing & Trading Engine (Ongoing)](https://github.com/angelazu-builder/event-driven-trading)
+`Python` · `Interactive Brokers (IBKR)` · `SEC EDGAR API` · `Streamlit` · `Probabilistic Valuation` · `Ongoing / WIP`
 * **Research Problem**: Corporate events (earnings releases, guidance updates, Investor Days) shift fundamental cash flows faster than equity markets price them, but naive sentiment approaches suffer from severe look-ahead bias and ungrounded hallucinations.
 * **What I Built & Key Edge**:
   - Implemented an end-to-end quantitative trading engine calculating the **Fundamental Revision ($FR$) vs Price Reaction ($PR$) Gap** to capture structural underreactions across 10-minute to multi-day horizons.
   - **Zero Look-Ahead Bias Ingestion**: Pre-event snapshot validation strictly locking consensus expectations prior to event execution; live SEC EDGAR REST API reader with sha256 content hashing and primary citation tracking.
   - **Quantified Probabilistic Valuation**: Structured thesis engine computing probabilistic Bull/Base/Bear scenarios, Expected Value ($EV$), return spreads, and explicit thesis break conditions.
   - **Automated Execution & Risk Limits**: Interactive Brokers (IBKR) paper order routing protected by strict portfolio guardrails (12.5% single-stock cap, 50% portfolio cap, spread <1.5%) and human-in-the-loop Streamlit UI.
-* 🔗 [Repository](https://github.com/angelazu-builder/event-driven-trading) | 💻 [Local Dashboard UI](http://localhost:8501) | 📄 [Architecture Specification](https://github.com/angelazu-builder/event-driven-trading/blob/main/docs/ARCHITECTURE.md)
+* 🔗 [Repository](https://github.com/angelazu-builder/event-driven-trading) | 📄 [Architecture Specification](https://github.com/angelazu-builder/event-driven-trading/blob/main/docs/ARCHITECTURE.md)
 
 ---
 
@@ -84,6 +84,6 @@
 - 🎓 **Affiliations**: University of Oxford (Laidlaw Scholar) · N1 AI Scholar
 - 🧠 **nanoGPT Research**: [angelazu-builder/nanoGPT](https://github.com/angelazu-builder/nanoGPT)
 - 📊 **OSEP Research Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
-- 📈 **Quant Trading Engine**: [event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)
+- 📈 **Quant Trading Engine (Ongoing)**: [event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)
 - 🤖 **Agent Environments**: [repo-organizer-skill](https://github.com/angelazu-builder/repo-organizer-skill)
 - 🌐 **Interactive Maps**: [oxfordshire-population-map](https://angelazu-builder.github.io/oxfordshire-population-map/)
