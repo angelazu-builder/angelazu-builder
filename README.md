@@ -6,7 +6,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Trading & Markets](https://img.shields.io/badge/Trading-Interactive_Brokers_%7C_SEC_EDGAR-108548.svg)](#)
 
-> 🛠️ **AI Systems Builder & Quantitative Researcher** · **N1 AI Scholar** · **University of Oxford** (Laidlaw Scholar)  
+> 🛠️ **AI Systems Builder & Quantitative Researcher** · **University of Oxford** (Laidlaw Scholar) · **N1 AI Scholar**  
 > 🔬 **Core Focus**: AI Agents & Execution Environments · Quantitative Trading & Event Engines · LLM Training Dynamics · Econometric Data Pipelines
 
 ---
@@ -81,7 +81,7 @@
 
 ## 📫 Connect & Portfolios
 
-- 🎓 **Affiliations**: N1 AI Scholar · University of Oxford (Laidlaw Scholar)
+- 🎓 **Affiliations**: University of Oxford (Laidlaw Scholar) · N1 AI Scholar
 - 🧠 **nanoGPT Research**: [angelazu-builder/nanoGPT](https://github.com/angelazu-builder/nanoGPT)
 - 📊 **OSEP Research Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
 - 📈 **Quant Trading Engine**: [event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)
