@@ -1,12 +1,12 @@
 # Hi there, I'm Angela Zu! 👋
 
 [![University of Oxford](https://img.shields.io/badge/University_of_Oxford-Laidlaw_Scholar-002147.svg?style=flat&logo=university-of-oxford&logoColor=white)](https://www.ox.ac.uk/)
-[![LLM Training Dynamics](https://img.shields.io/badge/Focus-LLM_Dynamics_%26_AI4S-8A2BE2.svg)](#)
+[![Focus](https://img.shields.io/badge/Focus-Agents_%26_Environments_%7C_Quant_Trading-8A2BE2.svg)](#)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![AI Agents](https://img.shields.io/badge/AI_Agents-Antigravity_%26_Gemini-FF6F00.svg)](#)
+[![Trading & Markets](https://img.shields.io/badge/Trading-Interactive_Brokers_%7C_SEC_EDGAR-108548.svg)](#)
 
-> 🛠️ **AI Systems Builder & Researcher at the University of Oxford** (Laidlaw Scholar)  
-> 🔬 **Core Focus**: LLM Training Dynamics & Mechanics · Quantitative Econometrics & Data Pipelines · AI for Science & Stochastic Physics · Agentic Systems
+> 🛠️ **AI Systems Builder & Quantitative Researcher at the University of Oxford** (Laidlaw Scholar)  
+> 🔬 **Core Focus**: AI Agents & Execution Environments · Quantitative Trading & Event Engines · LLM Training Dynamics · Econometric Data Pipelines
 
 ---
 
@@ -34,37 +34,47 @@
 
 ---
 
-### 🌌 [3. Candidate Phase Transitions in Wealth Inequality (AI for Science)](https://github.com/angelazu-builder/Datawhale_AI4S)
-`Python` · `Numba JIT` · `Kesten Stochastic Dynamics` · `Active Learning (UCB+GP)` · `World Bank API Calibration`
-* **Research Problem**: Identifying non-continuous candidate phase transition thresholds in high-dimensional Kesten wealth dynamics ($W_{t+1} = A_t \cdot W_t + B_t$) without high-dimensional grid search bottlenecks.
-* **Key Innovations**:
-  - Implemented a Numba JIT-accelerated simulator ($N=100,000$, $T=500$) with **Active Learning Agents (UCB + Gaussian Process Surrogate)** to discover candidate phase transitions at $R^* = p/c \approx 0.15 \sim 0.20$.
-  - Conducted **Finite-Size Scaling ($N \in [5k, 100k]$)** convergence proofs, Hill/Newman MLE tail fitting, and Bootstrap 95% Confidence Intervals.
-  - Discovered two emergent phenomena: **Absorbing Boundary Structural Collapse** ($R^2 < 0.50$) and **Keynesian MPC Power-Law Breakdown** ($c(W) \sim W^{-\alpha}$).
-  - Calibrated parameters with World Bank API macro data for US and China historical Gini coefficients.
-* 🔗 [Repository](https://github.com/angelazu-builder/Datawhale_AI4S) | 📄 [Research Report (PDF/Docx)](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/docs/submission/03_%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_Final_Report_v1.1.0.md) | 🌐 [English Readme](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/README_EN.md)
+### 📈 [3. Event-Driven US Equities Mispricing & Trading Engine](https://github.com/angelazu-builder/event-driven-trading)
+`Python` · `Interactive Brokers (IBKR)` · `SEC EDGAR API` · `Streamlit` · `Probabilistic Valuation` · `Event Econometrics`
+* **Research Problem**: Corporate events (earnings releases, guidance updates, Investor Days) shift fundamental cash flows faster than equity markets price them, but naive sentiment approaches suffer from severe look-ahead bias and ungrounded hallucinations.
+* **What I Built & Key Edge**:
+  - Implemented an end-to-end quantitative trading engine calculating the **Fundamental Revision ($FR$) vs Price Reaction ($PR$) Gap** to capture structural underreactions across 10-minute to multi-day horizons.
+  - **Zero Look-Ahead Bias Ingestion**: Pre-event snapshot validation strictly locking consensus expectations prior to event execution; live SEC EDGAR REST API reader with sha256 content hashing and primary citation tracking.
+  - **Quantified Probabilistic Valuation**: Structured thesis engine computing probabilistic Bull/Base/Bear scenarios, Expected Value ($EV$), return spreads, and explicit thesis break conditions.
+  - **Automated Execution & Risk Limits**: Interactive Brokers (IBKR) paper order routing protected by strict portfolio guardrails (12.5% single-stock cap, 50% portfolio cap, spread <1.5%) and human-in-the-loop Streamlit UI.
+* 🔗 [Repository](https://github.com/angelazu-builder/event-driven-trading) | 💻 [Local Dashboard UI](http://localhost:8501) | 📄 [Architecture Specification](https://github.com/angelazu-builder/event-driven-trading/blob/main/docs/ARCHITECTURE.md)
+
+---
+
+### 🤖 [4. Autonomous AI Agents & Verification Environments (repo-organizer)](https://github.com/angelazu-builder/repo-organizer-skill)
+`Python` · `AST Import Parsers` · `Invariant Baselines` · `Agentic Tool Execution` · `Safe Migration Pipeline`
+* **Engineering Problem**: AI coding agents frequently propose hallucinated structural changes, break module imports, and generate unsubstantiated novelty claims without verifiable environment feedback.
+* **What I Built**:
+  - Developed an enterprise-grade AI Agent Skill and deterministic verification environment for autonomous repository audits and high-conversion landing page restructuring.
+  - **6-Domain Invariant Verification Baseline** (`scripts/invariant_checker.py`): Programmatically captures and validates AST module imports, relative Markdown links, package entry points, and CI workflows.
+  - **AST Safe Migration Pipeline** (`scripts/safe_migrate.py`): Performs dry-run simulations, atomic `git mv` operations, and instant automated `git reset` rollback on test or invariant failure.
+  - **3-Layer External Novelty Audit**: Orchestrates GitHub Search API, OpenAlex/arXiv API, and web search to output deterministic 6-part proof tuples (`Claim -> Comparable -> Similarity -> Difference -> Evidence -> Confidence`).
+* 🔗 [Repository](https://github.com/angelazu-builder/repo-organizer-skill) | 📦 [Skill Specification](https://github.com/angelazu-builder/repo-organizer-skill/blob/main/skills/repo-organizer/SKILL.md)
 
 ---
 
 ## 🛠️ Other Projects & Tools
 
-* 🤖 **[repo-organizer-skill](https://github.com/angelazu-builder/repo-organizer-skill)**: AI Agent Skill for automated repository audits, AST import analysis, invariant baselining, and high-conversion landing page restructuring.
 * ⚡ **[gemini-live-multimodal-tutor](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)**: Real-time multimodal conversational tutor built with the Gemini Live API for voice/visual problem solving (Google Cloud Hackathon 2026).
 * 🗺️ **[oxfordshire-population-map](https://github.com/angelazu-builder/oxfordshire-population-map)**: Interactive geospatial portal mapping census demographic distributions and social enterprise density across UK postcodes (`OX1`–`OX49`) ([Live Map](https://angelazu-builder.github.io/oxfordshire-population-map/)).
 * 📝 **[CrystalNotes](https://github.com/angelazu-builder/CrystalNotes)**: AI transcript intelligence pipeline transforming unstructured audio into deeply hierarchical, structured study notes.
-* 📈 **[event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)**: Auditable event-driven US equities quantitative research engine with local analytical dashboards.
 * 🚀 **[tech-launch-promoter-skill](https://github.com/angelazu-builder/tech-launch-promoter-skill)**: AI Agent Skill for generating developer launch threads, Show HN submissions, and 15-second screen demo scripts.
+* 🌌 **[Datawhale_AI4S](https://github.com/angelazu-builder/Datawhale_AI4S)**: Numba JIT-accelerated Kesten stochastic dynamics simulator & active learning candidate phase transition scanner.
 
 ---
 
 ## ⚙️ Technical Capabilities & Stack
 
+- **AI Agents & Verification Environments**: Deterministic agent execution harnesses, AST-based import/dependency validation, 6-domain invariant checking, tool call schema verification, atomic migration pipelines.
+- **Quantitative Trading & Financial Engineering**: Event-driven mispricing signals ($FR - PR$), SEC EDGAR live ingestion, abnormal return modeling, probabilistic scenario valuation ($EV$), Interactive Brokers (IBKR) API integration, risk management guardrails.
 - **LLM Training Dynamics & Mechanics**: Context-length curricula, paired-seed experimental controls, preregistration protocols, BPC validation surfaces, Apple Silicon MPS profiling.
-- **Quantitative Research & Econometrics**: Missing data theory (MCAR/MAR/MNAR), policy shock modeling, entity resolution (postcode-blocked Jaccard n-gram matching).
-- **AI for Science & Stochastic Systems**: Kesten stochastic processes, active learning phase transition scans (GP+UCB), finite-size scaling, Hill MLE tail estimators.
-- **AI & Agentic Systems**: OpenAI Responses API (`web_search` tool), Gemini Live API, Antigravity Agent Skills, AST import analysis pipelines.
-- **Geospatial & Data Engineering**: Multi-source REST/Bulk ETL pipelines, Folium/Leaflet.js interactive geospatial visualization.
-- **Languages & Frameworks**: Python (PyTorch, Numba, NumPy, SciPy, Pandas, Matplotlib), JavaScript / TypeScript, HTML/CSS, SQL.
+- **Quantitative Econometrics & Data Pipelines**: Multi-source REST/Bulk ETL pipelines, missing data theory (MCAR/MAR/MNAR), entity resolution (postcode-blocked Jaccard n-gram matching).
+- **Languages & Frameworks**: Python (PyTorch, Numba, NumPy, SciPy, Pandas, Streamlit), JavaScript / TypeScript, HTML/CSS, SQL.
 
 ---
 
@@ -73,5 +83,6 @@
 - 🎓 **Institution**: University of Oxford
 - 🧠 **nanoGPT Research**: [angelazu-builder/nanoGPT](https://github.com/angelazu-builder/nanoGPT)
 - 📊 **OSEP Research Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
-- 🌌 **AI for Science Project**: [Datawhale_AI4S](https://github.com/angelazu-builder/Datawhale_AI4S)
+- 📈 **Quant Trading Engine**: [event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)
+- 🤖 **Agent Environments**: [repo-organizer-skill](https://github.com/angelazu-builder/repo-organizer-skill)
 - 🌐 **Interactive Maps**: [oxfordshire-population-map](https://angelazu-builder.github.io/oxfordshire-population-map/)
