@@ -1,26 +1,25 @@
 # Hi there, I'm Angela Zu! 👋
 
 [![University of Oxford](https://img.shields.io/badge/University_of_Oxford-Laidlaw_Scholar-002147.svg?style=flat&logo=university-of-oxford&logoColor=white)](https://www.ox.ac.uk/)
-[![AI for Science](https://img.shields.io/badge/Focus-AI_for_Science_%26_Econophysics-8A2BE2.svg)](#)
+[![LLM Training Dynamics](https://img.shields.io/badge/Focus-LLM_Dynamics_%26_AI4S-8A2BE2.svg)](#)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
-[![LLM Agent Systems](https://img.shields.io/badge/AI_Agents-Antigravity_%26_Gemini-FF6F00.svg)](#)
+[![AI Agents](https://img.shields.io/badge/AI_Agents-Antigravity_%26_Gemini-FF6F00.svg)](#)
 
-> 🎓 **Laidlaw Scholar & Researcher at the University of Oxford**  
-> 🔬 **Research Focus**: AI for Science (AI4S) · Econophysics & Stochastic Dynamics · Active Learning & Agentic Systems · Quantitative Social Economy
+> 🛠️ **AI Systems Builder & Researcher at the University of Oxford** (Laidlaw Scholar)  
+> 🔬 **Core Focus**: LLM Training Dynamics & Mechanics · Quantitative Econometrics & Data Pipelines · AI for Science & Stochastic Physics · Agentic Systems
 
 ---
 
-## 🌟 Selected Research & Engineering Systems
+## 🌟 Flagship Systems & Empirical Research
 
-### 🌌 [1. Candidate Phase Transitions in Wealth Inequality (AI for Science)](https://github.com/angelazu-builder/Datawhale_AI4S)
-`Python` · `Numba JIT` · `Kesten Stochastic Dynamics` · `Active Learning (UCB+GP)` · `World Bank API Calibration`
-* **Research Problem**: Identifying non-continuous candidate phase transition thresholds in high-dimensional Kesten wealth dynamics ($W_{t+1} = A_t \cdot W_t + B_t$) without high-dimensional grid search bottlenecks.
-* **Key Innovations**:
-  - Implemented a Numba JIT-accelerated simulator ($N=100,000$, $T=500$) with **Active Learning Agents (UCB + Gaussian Process Surrogate)** to discover candidate phase transitions at $R^* = p/c \approx 0.15 \sim 0.20$.
-  - Conducted **Finite-Size Scaling ($N \in [5k, 100k]$)** convergence proofs, Hill/Newman MLE tail fitting, and Bootstrap 95% Confidence Intervals.
-  - Discovered two emergent phenomena: **Absorbing Boundary Structural Collapse** ($R^2 < 0.50$) and **Keynesian MPC Power-Law Breakdown** ($c(W) \sim W^{-\alpha}$).
-  - Calibrated parameters with World Bank API macro data for US and China historical Gini coefficients.
-* 🔗 [Repository](https://github.com/angelazu-builder/Datawhale_AI4S) | 📄 [Research Report (PDF/Docx)](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/docs/submission/03_%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_Final_Report_v1.1.0.md) | 🌐 [English Readme](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/README_EN.md)
+### 🧠 [1. Context-Length Order & LLM Training Dynamics (nanoGPT)](https://github.com/angelazu-builder/nanoGPT)
+`Python` · `PyTorch (Apple Silicon / MPS)` · `Transformer Mechanics` · `Preregistered Recovery Study` · `ICML-Style Preprint`
+* **Research Problem**: Does the temporal order of context lengths presented during training leave a persistent path-dependent deficit on an LLM's final capability, or is the apparent difference an artifact of recency bias and confounded evaluation?
+* **What I Built & Key Findings**:
+  - Engineered an inspectable **4.8M-parameter character-level Transformer** optimized for Apple Silicon (MPS backend) with modular data pipelines, diagnostic probes, and evaluation harnesses.
+  - Executed a **three-iteration controlled empirical study**: evolved from an initial single-seed pilot to a 5-paired-seed design, culminating in a **formal preregistered recovery study** holding token budgets (4,096 tokens/step), paired seed initializations, data manifests, and AdamW optimizer trajectories invariant.
+  - Uncovered that an initial severe descending deficit (**$+0.7570$ BPC** gap at $T=256$) **completely reversed to $-0.0485$ BPC** after a common $T=256$ recovery phase—ruling out strong persistent path dependence and demonstrating that final performance is dominated by recent context exposure.
+* 🔗 [Repository](https://github.com/angelazu-builder/nanoGPT) | 📄 [Concise Technical Report (PDF)](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/TECHNICAL_REPORT_CONCISE_final.pdf) | 📋 [Frozen Preregistration](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/PREREGISTRATION.md) | 📄 [ICML Paper Preprint (PDF)](https://github.com/angelazu-builder/nanoGPT/blob/main/output/pdf/context_order_recovery_icml2026_final.pdf)
 
 ---
 
@@ -35,43 +34,44 @@
 
 ---
 
-### 🤖 [3. Gemini Live Multimodal AI Tutor](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
-`JavaScript` · `Gemini Live API` · `Multimodal Audio & Vision` · `Google Cloud Hackathon 2026`
-* **Problem**: Traditional e-learning interfaces lack conversational adaptation and real-time visual problem-solving feedback.
-* **What I Built**: Built for **Google Cloud Hackathon 2026**, an interactive multimodal AI cognitive companion leveraging the **Gemini Live API** for real-time voice and visual interaction during complex problem solving.
-* 🔗 [Repository](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)
+### 🌌 [3. Candidate Phase Transitions in Wealth Inequality (AI for Science)](https://github.com/angelazu-builder/Datawhale_AI4S)
+`Python` · `Numba JIT` · `Kesten Stochastic Dynamics` · `Active Learning (UCB+GP)` · `World Bank API Calibration`
+* **Research Problem**: Identifying non-continuous candidate phase transition thresholds in high-dimensional Kesten wealth dynamics ($W_{t+1} = A_t \cdot W_t + B_t$) without high-dimensional grid search bottlenecks.
+* **Key Innovations**:
+  - Implemented a Numba JIT-accelerated simulator ($N=100,000$, $T=500$) with **Active Learning Agents (UCB + Gaussian Process Surrogate)** to discover candidate phase transitions at $R^* = p/c \approx 0.15 \sim 0.20$.
+  - Conducted **Finite-Size Scaling ($N \in [5k, 100k]$)** convergence proofs, Hill/Newman MLE tail fitting, and Bootstrap 95% Confidence Intervals.
+  - Discovered two emergent phenomena: **Absorbing Boundary Structural Collapse** ($R^2 < 0.50$) and **Keynesian MPC Power-Law Breakdown** ($c(W) \sim W^{-\alpha}$).
+  - Calibrated parameters with World Bank API macro data for US and China historical Gini coefficients.
+* 🔗 [Repository](https://github.com/angelazu-builder/Datawhale_AI4S) | 📄 [Research Report (PDF/Docx)](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/docs/submission/03_%E5%AE%8C%E6%95%B4%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A_Final_Report_v1.1.0.md) | 🌐 [English Readme](https://github.com/angelazu-builder/Datawhale_AI4S/blob/main/README_EN.md)
 
 ---
 
-### 📝 [4. CrystalNotes — AI Transcript Intelligence](https://github.com/angelazu-builder/CrystalNotes)
-`TypeScript` · `LLM Systems` · `NLP` · `Productivity Engineering`
-* **Problem**: Unstructured audio transcripts are time-consuming to review and lack clear hierarchical structure.
-* **What I Built**: An AI-powered transcript processor that extracts core insights and formats them into deeply-layered, structured bullet notes.
-* 🔗 [Repository](https://github.com/angelazu-builder/CrystalNotes)
+## 🛠️ Other Projects & Tools
+
+* 🤖 **[repo-organizer-skill](https://github.com/angelazu-builder/repo-organizer-skill)**: AI Agent Skill for automated repository audits, AST import analysis, invariant baselining, and high-conversion landing page restructuring.
+* ⚡ **[gemini-live-multimodal-tutor](https://github.com/angelazu-builder/gemini-live-multimodal-tutor)**: Real-time multimodal conversational tutor built with the Gemini Live API for voice/visual problem solving (Google Cloud Hackathon 2026).
+* 🗺️ **[oxfordshire-population-map](https://github.com/angelazu-builder/oxfordshire-population-map)**: Interactive geospatial portal mapping census demographic distributions and social enterprise density across UK postcodes (`OX1`–`OX49`) ([Live Map](https://angelazu-builder.github.io/oxfordshire-population-map/)).
+* 📝 **[CrystalNotes](https://github.com/angelazu-builder/CrystalNotes)**: AI transcript intelligence pipeline transforming unstructured audio into deeply hierarchical, structured study notes.
+* 📈 **[event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)**: Auditable event-driven US equities quantitative research engine with local analytical dashboards.
+* 🚀 **[tech-launch-promoter-skill](https://github.com/angelazu-builder/tech-launch-promoter-skill)**: AI Agent Skill for generating developer launch threads, Show HN submissions, and 15-second screen demo scripts.
 
 ---
 
-### 🗺️ [5. Oxfordshire Population Density & Settlement Map Portal](https://github.com/angelazu-builder/oxfordshire-population-map)
-`Python` · `Folium / Leaflet.js` · `Geospatial Data Science` · `Spatial Modeling`
-* **Problem**: Communicating spatial variations in population density and social enterprise distribution across UK census postcodes (`OX1`–`OX49`).
-* **What I Built**: Standalone interactive spatial mapping portal featuring choropleth layers, income quintile circle markers, and ward boundary tooltips.
-* 🔗 [Repository](https://github.com/angelazu-builder/oxfordshire-population-map) | 🌐 [Live Map Portal](https://angelazu-builder.github.io/oxfordshire-population-map/)
+## ⚙️ Technical Capabilities & Stack
 
----
-
-## 🛠️ Research & Technical Capabilities
-
-- **AI for Science & Econophysics**: Kesten Stochastic Processes, Candidate Phase Transition Scans, Active Learning (GP+UCB), Finite-Size Scaling, Hill MLE Estimators.
-- **Quantitative Research & Econometrics**: Missing Data Theory (MCAR/MAR/MNAR), Structural Selection, Elasticity Modeling, Policy Shock Econometrics.
-- **AI & Agentic Systems**: OpenAI Responses API (`web_search` tool), Gemini Live API, Structured JSON Outputs, Antigravity Agent Skills.
-- **Geospatial & Data Engineering**: Multi-Source REST/Bulk ETL Pipelines, Postcode Blocking Fuzzy Matchers, Folium/Leaflet.js Spatial Analytics.
-- **Languages & Frameworks**: Python (Numba, NumPy, SciPy, Pandas, Matplotlib), JavaScript/TypeScript, HTML/CSS, SQL.
+- **LLM Training Dynamics & Mechanics**: Context-length curricula, paired-seed experimental controls, preregistration protocols, BPC validation surfaces, Apple Silicon MPS profiling.
+- **Quantitative Research & Econometrics**: Missing data theory (MCAR/MAR/MNAR), policy shock modeling, entity resolution (postcode-blocked Jaccard n-gram matching).
+- **AI for Science & Stochastic Systems**: Kesten stochastic processes, active learning phase transition scans (GP+UCB), finite-size scaling, Hill MLE tail estimators.
+- **AI & Agentic Systems**: OpenAI Responses API (`web_search` tool), Gemini Live API, Antigravity Agent Skills, AST import analysis pipelines.
+- **Geospatial & Data Engineering**: Multi-source REST/Bulk ETL pipelines, Folium/Leaflet.js interactive geospatial visualization.
+- **Languages & Frameworks**: Python (PyTorch, Numba, NumPy, SciPy, Pandas, Matplotlib), JavaScript / TypeScript, HTML/CSS, SQL.
 
 ---
 
 ## 📫 Connect & Portfolios
 
 - 🎓 **Institution**: University of Oxford
-- 🌐 **Interactive Maps**: [oxfordshire-population-map](https://angelazu-builder.github.io/oxfordshire-population-map/)
+- 🧠 **nanoGPT Research**: [angelazu-builder/nanoGPT](https://github.com/angelazu-builder/nanoGPT)
 - 📊 **OSEP Research Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
 - 🌌 **AI for Science Project**: [Datawhale_AI4S](https://github.com/angelazu-builder/Datawhale_AI4S)
+- 🌐 **Interactive Maps**: [oxfordshire-population-map](https://angelazu-builder.github.io/oxfordshire-population-map/)
