@@ -1,11 +1,12 @@
 # Hi there, I'm Angela Zu! 👋
 
 [![University of Oxford](https://img.shields.io/badge/University_of_Oxford-Laidlaw_Scholar-002147.svg?style=flat&logo=university-of-oxford&logoColor=white)](https://www.ox.ac.uk/)
+[![N1 AI Scholar](https://img.shields.io/badge/N1-AI_Scholar-FF4500.svg?style=flat)](#)
 [![Focus](https://img.shields.io/badge/Focus-Agents_%26_Environments_%7C_Quant_Trading-8A2BE2.svg)](#)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![Trading & Markets](https://img.shields.io/badge/Trading-Interactive_Brokers_%7C_SEC_EDGAR-108548.svg)](#)
 
-> 🛠️ **AI Systems Builder & Quantitative Researcher at the University of Oxford** (Laidlaw Scholar)  
+> 🛠️ **AI Systems Builder & Quantitative Researcher** · **N1 AI Scholar** · **University of Oxford** (Laidlaw Scholar)  
 > 🔬 **Core Focus**: AI Agents & Execution Environments · Quantitative Trading & Event Engines · LLM Training Dynamics · Econometric Data Pipelines
 
 ---
@@ -80,7 +81,7 @@
 
 ## 📫 Connect & Portfolios
 
-- 🎓 **Institution**: University of Oxford
+- 🎓 **Affiliations**: N1 AI Scholar · University of Oxford (Laidlaw Scholar)
 - 🧠 **nanoGPT Research**: [angelazu-builder/nanoGPT](https://github.com/angelazu-builder/nanoGPT)
 - 📊 **OSEP Research Portal**: [osep-quant-ai-social-impact](https://github.com/angelazu-builder/osep-quant-ai-social-impact)
 - 📈 **Quant Trading Engine**: [event-driven-trading](https://github.com/angelazu-builder/event-driven-trading)
