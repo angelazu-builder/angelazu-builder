@@ -13,13 +13,13 @@
 ## 🌟 Flagship Systems & Empirical Research
 
 ### 🧠 [1. Context-Length Order & LLM Training Dynamics (nanoGPT)](https://github.com/angelazu-builder/nanoGPT)
-`Python` · `PyTorch (Apple Silicon / MPS)` · `Transformer Mechanics` · `Preregistered Recovery Study` · `ICML-Style Preprint`
+`Python` · `PyTorch (Apple Silicon / MPS)` · `Transformer Mechanics` · `Controlled Empirical Study` · `Preregistered Recovery`
 * **Research Problem**: Does the temporal order of context lengths presented during training leave a persistent path-dependent deficit on an LLM's final capability, or is the apparent difference an artifact of recency bias and confounded evaluation?
 * **What I Built & Key Findings**:
   - Engineered an inspectable **4.8M-parameter character-level Transformer** optimized for Apple Silicon (MPS backend) with modular data pipelines, diagnostic probes, and evaluation harnesses.
   - Executed a **three-iteration controlled empirical study**: evolved from an initial single-seed pilot to a 5-paired-seed design, culminating in a **formal preregistered recovery study** holding token budgets (4,096 tokens/step), paired seed initializations, data manifests, and AdamW optimizer trajectories invariant.
   - Uncovered that an initial severe descending deficit (**$+0.7570$ BPC** gap at $T=256$) **completely reversed to $-0.0485$ BPC** after a common $T=256$ recovery phase—ruling out strong persistent path dependence and demonstrating that final performance is dominated by recent context exposure.
-* 🔗 [Repository](https://github.com/angelazu-builder/nanoGPT) | 📄 [Concise Technical Report (PDF)](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/TECHNICAL_REPORT_CONCISE_final.pdf) | 📋 [Frozen Preregistration](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/PREREGISTRATION.md) | 📄 [ICML Paper Preprint (PDF)](https://github.com/angelazu-builder/nanoGPT/blob/main/output/pdf/context_order_recovery_icml2026_final.pdf)
+* 🔗 [Repository](https://github.com/angelazu-builder/nanoGPT) | 📄 [Concise Technical Report (PDF)](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/TECHNICAL_REPORT_CONCISE_final.pdf) | 📋 [Frozen Preregistration](https://github.com/angelazu-builder/nanoGPT/blob/main/training_dynamics_research/recovery_study/PREREGISTRATION.md)
 
 ---
 
